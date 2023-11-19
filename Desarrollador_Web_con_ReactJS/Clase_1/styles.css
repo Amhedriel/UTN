@@ -43,8 +43,9 @@ body::-webkit-scrollbar-thumb {
 }
 
 
-
+/*---------*/
 /* HEADER */
+/*---------*/
 
 .header-seguro{
   width: 100%;
@@ -188,9 +189,11 @@ hr{
   flex-direction: column;
   justify-content: center;
   align-content: center;
-  max-width: 1600px;
-  padding: 3rem 2rem;
+  max-width: 1900px;
+  padding: 3rem 4rem;
 }
+
+.planes
 
 .tipo-seguro,
 .planes_precios{
@@ -344,6 +347,7 @@ select {
 /*------------------*\
         FOOTER 
 \*------------------*/
+
 footer{
   padding: 3rem 2rem;
   background-color: var(--main-colorNegro);
@@ -355,9 +359,9 @@ footer{
 
 }
 
-
+/*--------*/
 /* querys */
-
+/*--------*/
 
 
 @media screen and (max-width: 1000px) {
